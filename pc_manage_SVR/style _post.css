@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+
+.wrapper {
+	margin: 0 auto 0 auto;
+	max-width: 960px;
+}
+.logo {
+	margin 50px 0 40px 0;
+	line-height: 0;
+	text-align: center;
+}
+.wrap{
+  height:60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mgr-10{
+    margin-right : 20px;
+}
+div{
+	margin: 1em;
+}
+
+li {
+	list-style-type: none;
+	margin-bottom: 1em;
+}
+
+ol > li {
+	list-style-type: decimal;
+	margin-bottom: 0;
+}
+
+a{
+	color: #5e78c1;
+	text-decoration: none;
+}
+a:hover{
+	color: #b04188;
+	text-decoration: underline;
+}
+
+.error {
+	color: #FF0000;
+}

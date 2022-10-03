@@ -1,0 +1,226 @@
+@charset "UTF-8";
+
+html {
+	font-family: sans-serif;
+	color: 444444;
+}
+
+
+/* body { */
+/*	background-color: #fffff9; /* #fffefa;/* #eeece9; */
+/* } */
+
+ /* https://proengineer.internous.co.jp/content/columnfeature/6491 */
+.Header1 {
+position: fixed; /* ヘッダーを固定する */
+/*position: auto; /* ヘッダーを固定する */
+top: 0; /* 上部から配置の基準位置を決める */
+left: -32px; /* 左から配置の基準位置を決める */
+/* width: 100%; /* ヘッダーの横幅を指定する */
+height: 370px; /* ヘッダーの高さを指定する */
+padding: 12px 0 0 0; /* ヘッダーの余白を指定する(上下左右) */
+/* background-color: #31a9ee; /* ヘッダーの背景色を指定する */
+/* color: #000000; /* フォントの色を指定する */
+	color: #333;
+	background-color: #eeece9; /* #fffff9; */
+}
+
+.Contents1 {
+width: 100%; /* コンテンツの横幅を指定する */
+padding: 390px 0 0 0; 
+margin: 0 0 0 0;
+height: auto;
+
+/*margin-left: 33px; */
+/*	border-collapse: collapse; */
+
+ /* コンテンツの表示を自動に設定（スクロール） */
+overflow: auto;
+
+/*	color: #333; */
+	background-color: #eeece9; /* #fffff9; */
+
+}
+
+ .button0 {
+/*	margin-left: 10%;
+	margin-right:10%;*/
+	width:12%;
+	padding:5px;
+	font-size:16px;
+	font-family:sans-serif;
+	font-weight:bold; 
+	color:#444444;
+	background-color: #AFEEEE;
+	border-color: #c0c0c0; 
+	border-radius: 10% 
+
+}
+
+ .button1 {
+/*	margin-left: 10%;
+	margin-right:10%;*/
+	width:120px;
+	padding:5px;
+	font-size:16px;
+	font-family:sans-serif;
+	font-weight:bold;
+	color:#444444;
+	background-color: #AFEEEE;
+	border-color: #c0c0c0;
+	border-radius: 10%
+}
+
+ .button2 {
+/*	margin-left: 10%;
+	margin-right:10%;*/
+	width:40%;
+	padding:10px;
+	font-size:16px;
+	font-family:sans-serif;
+	font-weight:bold;
+	color:#444444;
+	background-color: #AFEEEE;
+	border-color: #c0c0c0;
+	border-radius: 10%
+}
+
+.toplist0 {
+	font-size: 20px;
+}
+
+.title {
+	margin: 0 0 0 460px;
+}
+.comment {
+	margin: 0 0 0 150px;
+}
+body {
+	background-color: #eeece9;
+}	
+.wrapper {
+	margin: 0 auto 0 auto;
+	max-width: 1200px;
+}
+
+a:link {
+	color: #d25833;
+}
+a:visited {
+	color: #d25833;
+}
+a:hover {
+	color: #e3937a;	
+}
+a:active {
+ 	color: #ff6a3b;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* 入力情報テーブルのフォーマット */
+.info {
+	border-collapse: collapse;
+	margin: 50px 0 0 300px;
+}
+.info th, .info td {
+	padding: 8px;
+	border: 1px solid #bec2c7;
+	text-align: center;
+/*	width: 200px; */
+}
+.info th {
+	background-color: #dde2ea;
+	font-size: 20px;
+	width: 150px;
+	color: #3f5170;
+	vertical-align: center;
+}
+.info td {
+	background-color: #ffe2ea;
+		font-size: 20px;
+	width: 150px;
+	color: #444444;
+	vertical-align: center;
+}
+
+.startButton {
+	font-size: 20px;
+/*	text-align: center; */
+/*	align: center;  */
+}
+
+/* 社員情報テーブルのフォーマット　*/
+
+.info2 {
+	border-collapse: collapse;
+	width: 960px;
+	margin: 0 0 0 0;
+	table-layout: fixed; 
+}
+.info2 th, .info2 td {
+	padding: 8px;
+	font-size: 20px;
+	border: 1px solid #bec2c7;
+	text-align: center; 
+}
+
+.info2 th {
+	background-color: #dde2ea;
+	color: #3f5170;
+	vertical-align: top;
+}
+.info2 td {
+	font-size: 16px;
+	background-color: #ffe2ea;
+}
+
+/*  番号　*/
+.th00 {
+	width: 50px;
+	word-wrap: break-word;  /* セルオーバー時の自動改行 */
+}
+
+/*　会社名　*/
+.th0 {
+	width: 100px;
+	word-wrap: break-word;  /* セルオーバー時の自動改行 */
+}
+/*　事業所　*/
+.th1 {
+	width: 200px;
+	word-wrap: break-word;  /* セルオーバー時の自動改行 */
+}
+/*　台帳番号　*/
+.th2 {
+	width: 100px;
+	word-wrap: break-word;  /* セルオーバー時の自動改行 */
+}
+/*　設置場所　*/
+.th3 {
+	width: 200px;
+	word-wrap: break-word;  /* セルオーバー時の自動改行 */
+}
+/*　メーカー　*/
+.th4 {
+	width: 100px;
+	word-wrap: break-word;  /* セルオーバー時の自動改行 */
+}
+/*　型式　*/
+.th5 {
+	width: 250px;
+	word-wrap: break-word;  /* セルオーバー時の自動改行 */
+
+}
+/*　持出可否　*/
+.th6 {
+	width: 100px;
+	word-wrap: break-word;  /* セルオーバー時の自動改行 */
+}
+/*　----　*/
+.th7 {
+	width: 150px;
+	word-wrap: break-word;  /* セルオーバー時の自動改行 */
+}
